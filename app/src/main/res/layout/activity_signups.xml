@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/back"
+    tools:context=".signups">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
+        >
+        <EditText
+            android:id="@+id/s_nane"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:inputType="textEmailAddress"
+            android:padding="10dp">
+
+
+
+        </EditText>
+        <EditText
+            android:id="@+id/roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your roll-no"
+            android:inputType="textEmailAddress"
+            android:padding="10dp">
+
+
+
+        </EditText>
+        <EditText
+            android:id="@+id/Register_emails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Student Email Address"
+            android:inputType="textEmailAddress"
+            android:padding="10dp">
+
+
+
+        </EditText>
+        <EditText
+            android:id="@+id/Register_passwords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="10dp">
+
+
+
+        </EditText>
+        <EditText
+            android:id="@+id/Registerconfirm_registers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp">
+
+
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/cgpa"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="CGPA"
+                android:inputType="textEmailAddress"
+                android:padding="10dp">
+
+
+
+            </EditText>
+            <EditText
+                android:id="@+id/completed_credit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Completed credits"
+                android:inputType="textEmailAddress"
+                android:padding="10dp">
+
+
+
+            </EditText>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Register_submits"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+            <Button
+                android:id="@+id/Register_cancels"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
