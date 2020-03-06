@@ -24,7 +24,7 @@
         android:layout_marginTop="50dp"
         >
         <EditText
-            android:id="@+id/s_nane"
+            android:id="@+id/s_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your name"
@@ -61,14 +61,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Password"
-            android:inputType="textPassword"
+
             android:padding="10dp">
 
 
 
         </EditText>
         <EditText
-            android:id="@+id/Registerconfirm_registers"
+            android:id="@+id/c_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Confirm Password"
@@ -115,13 +115,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/Register_submits"
+                android:id="@+id/s_submits"
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:text="Submit" />
 
             <Button
-                android:id="@+id/Register_cancels"
+                android:id="@+id/s_cancels"
                 android:layout_width="149dp"
                 android:layout_height="wrap_content"
                 android:text="Cancel" />
